@@ -1,0 +1,15 @@
+INSERT INTO account (username,password,nickname,salt,type) VALUES ("admin","eec58c333d1c3f2aff5fb8f7efd25634","administrator","AAA","ad");
+INSERT INTO account (username,password,nickname,salt,type) VALUES ("user","eec58c333d1c3f2aff5fb8f7efd25634","","AAA","us");
+INSERT INTO account (username,password,nickname,salt,type) VALUES ("merchant","eec58c333d1c3f2aff5fb8f7efd25634","ltd","AAA","me");
+INSERT INTO commodity (name,author,price,category) VALUES ("The Broken Circle: A Memoir of Escaping Afghanistan","Enjeela Ahmadi-Miller",4.99,"Biographies & Memoirs");
+INSERT INTO commodity (name,author,price,category) VALUES ("Becoming","Michelle Obama",19.50,"Biographies & Memoirs");
+INSERT INTO commodity (name,author,price,category) VALUES ("Educated: A Memoir","Tara Westover",12.99,"Biographies & Memoirs");
+INSERT INTO commodity (name,author,price,category) VALUES ("Victoria's Daughters","Jerrold M. Packard",1.99,"Biographies & Memoirs");
+INSERT INTO commodity (name,author,price,category) VALUES ("Call the Nurse: True Stories of a Country Nurse on a Scottish Isle","Mary J MacLeod",1.99,"Biographies & Memoirs");
+INSERT INTO commodity (name,author,price,category) VALUES ("Tender at the Bone: Growing Up at the Table","Ruth Reichl",1.99,"Biographies & Memoirs");
+INSERT INTO commodity (name,author,price,category) VALUES ("The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing","Marie Kondō",9.69,"Business & Money");
+INSERT INTO commodity (name,author,price,category) VALUES ("Girl, Stop Apologizing: A Shame-Free Plan for Embracing and Achieving Your Goals","Rachel Hollis",14.99,"Business & Money");
+INSERT INTO commodity (name,author,price,category) VALUES ("How to Win Friends & Influence People","Dale Carnegie",23.99,"Business & Money");
+INSERT INTO commodity (name,author,price,category) VALUES ("The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life (Before 8AM)","Hal Elrod",9.97,"Business & Money");
+INSERT INTO commodity (name,author,price,category) VALUES ("How to Stop Living Paycheck to Paycheck (2nd Edition): A proven path to money mastery in only 15 minutes a week! (Simple Personal Finance Books) (Smart Money Blueprint)","Avery Breyer",2.99,"Business & Money");
+INSERT INTO commodity (name,author,price,category) VALUES ("The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change","Stephen R. Covey",5.44,"Business & Money");

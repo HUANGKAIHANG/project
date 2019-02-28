@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+
+<p th:text="${welcomeMsg}">welcomeMsg</p>
+<a th:href="@{/login}">sign in</a><p>sign up</p>
+<br>
+
+<p>commodities:</p>
+<p th:text="${commodities}"></p>
+<table>
+    <thead>
+    <tr>
+        <th>#</th><th>name</th><th>author</th><th>price</th><th>category</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="c:${commodities}">
+        <td th:text="${c.id}">ID</td>
+        <td th:text="${c.name}">name</td>
+        <td th:text="${c.author}">author</td>
+        <td th:text="${c.price}">price</td>
+        <td th:text="${c.category}">category</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+
+<hr>
+
+<br>
+<p>accounts:</p>
+<p th:text="${accounts}"></p>
+<table>
+    <thead>
+    <tr>
+        <th>#</th><th>username</th><th>password</th><th>nickname</th><th>salt</th><th>type</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="a:${accounts}">
+        <td th:text="${a.id}">ID</td>
+        <td th:text="${a.username}">username</td>
+        <td th:text="${a.password}">password</td>
+        <td th:text="${a.nickname}">nickname</td>
+        <td th:text="${a.salt}">salt</td>
+        <td th:text="${a.type}">type</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
