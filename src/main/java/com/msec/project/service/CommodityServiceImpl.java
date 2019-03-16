@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CommodityServiceImpl implements CommodityService {
@@ -18,5 +19,8 @@ public class CommodityServiceImpl implements CommodityService {
         return commodityRepository.findAll();
     }
 
-
+    @Override
+    public Optional<Commodity> getCommodity(int id){
+        return commodityRepository.findById(id);
+    }
 }
